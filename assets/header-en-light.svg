@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title">
+  <title id="title">Bruno Vinicius Isaac Costa, front-end developer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef1f8"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"><animate attributeName="stop-color" values="#a78bfa;#22d3ee;#f472b6;#a78bfa" dur="10s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#22d3ee"><animate attributeName="stop-color" values="#22d3ee;#f472b6;#a78bfa;#22d3ee" dur="10s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1b2236" stroke-opacity="0.05"/>
+    </pattern>
+    <radialGradient id="glowA"><stop offset="0" stop-color="#7c3aed" stop-opacity="0.35"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB"><stop offset="0" stop-color="#06b6d4" stop-opacity="0.28"/><stop offset="1" stop-color="#06b6d4" stop-opacity="0"/></radialGradient>
+    <clipPath id="frame"><rect width="1200" height="300" rx="20"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace; font-size: 24px; fill: #151a2b; }
+    .pulse { animation: pulse 8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes pulse { 50% { transform: scale(1.15); opacity: 0.7; } }
+    .dot { animation: dot 2s ease-in-out infinite; }
+    @keyframes dot { 50% { opacity: 0.35; } }
+    .code { font-family: Consolas, 'SFMono-Regular', Menlo, monospace; font-size: 17px; fill: #2a3148; }
+    .k { fill: #c084fc; } .s { fill: #34d399; } .p { fill: #f472b6; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+    <circle class="pulse" cx="140" cy="40" r="220" fill="url(#glowA)"/>
+    <circle class="pulse" cx="1080" cy="280" r="240" fill="url(#glowB)" style="animation-delay:-4s"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="20" fill="none" stroke="#dde2ee"/>
+
+  <g transform="translate(64 64)">
+    <rect x="0" y="0" width="262" height="30" rx="15" fill="#ffffff" stroke="#dde2ee"/>
+    <circle class="dot" cx="18" cy="15" r="5" fill="#22c55e"/>
+    <text x="32" y="20" class="sans" font-size="14" fill="#5b6478">Open to new opportunities</text>
+  </g>
+  <text x="64" y="132" class="sans" font-size="22" font-weight="600" fill="#5b6478">Hi, I'm</text>
+  <text x="64" y="184" class="sans" font-size="46" font-weight="800" fill="url(#name)" letter-spacing="-1">Bruno Vinicius Isaac Costa</text>
+  <g transform="translate(64 240)">
+    <text x="0" y="0" class="mono" fill="#a78bfa" style="fill:#a78bfa">&gt;</text>
+    <g transform="translate(26 0)">
+      <clipPath id="clip0"><rect x="0" y="-30" width="0" height="40">
+        <animate attributeName="width" values="0;274;274;0;0" keyTimes="0.0000;0.1000;0.2000;0.2375;1.0000" dur="16s" repeatCount="indefinite"/>
+      </rect></clipPath>
+      <text clip-path="url(#clip0)" class="mono" textLength="274" lengthAdjust="spacingAndGlyphs">Front-end Developer</text>
+      <g opacity="0">
+        <animate attributeName="opacity" values="1;0" keyTimes="0;0.2375" calcMode="discrete" dur="16s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0;274 0;274 0;0 0;0 0" keyTimes="0.0000;0.1000;0.2000;0.2375;1.0000" dur="16s" repeatCount="indefinite"/>
+        <rect x="4" y="-22" width="12" height="28" rx="2" fill="#a78bfa">
+          <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" calcMode="discrete" dur="1s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+      <clipPath id="clip1"><rect x="0" y="-30" width="0" height="40">
+        <animate attributeName="width" values="0;0;403;403;0;0" keyTimes="0.0000;0.2500;0.3500;0.4500;0.4875;1.0000" dur="16s" repeatCount="indefinite"/>
+      </rect></clipPath>
+      <text clip-path="url(#clip1)" class="mono" textLength="403" lengthAdjust="spacingAndGlyphs">Angular · React · TypeScript</text>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2500;0.4875" calcMode="discrete" dur="16s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 0;403 0;403 0;0 0;0 0" keyTimes="0.0000;0.2500;0.3500;0.4500;0.4875;1.0000" dur="16s" repeatCount="indefinite"/>
+        <rect x="4" y="-22" width="12" height="28" rx="2" fill="#a78bfa">
+          <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" calcMode="discrete" dur="1s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+      <clipPath id="clip2"><rect x="0" y="-30" width="0" height="40">
+        <animate attributeName="width" values="0;0;547;547;0;0" keyTimes="0.0000;0.5000;0.6000;0.7000;0.7375;1.0000" dur="16s" repeatCount="indefinite"/>
+      </rect></clipPath>
+      <text clip-path="url(#clip2)" class="mono" textLength="547" lengthAdjust="spacingAndGlyphs">Technical lead in the financial sector</text>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5000;0.7375" calcMode="discrete" dur="16s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 0;547 0;547 0;0 0;0 0" keyTimes="0.0000;0.5000;0.6000;0.7000;0.7375;1.0000" dur="16s" repeatCount="indefinite"/>
+        <rect x="4" y="-22" width="12" height="28" rx="2" fill="#a78bfa">
+          <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" calcMode="discrete" dur="1s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+      <clipPath id="clip3"><rect x="0" y="-30" width="0" height="40">
+        <animate attributeName="width" values="0;0;648;648;0;0" keyTimes="0.0000;0.7500;0.8500;0.9500;0.9875;1.0000" dur="16s" repeatCount="indefinite"/>
+      </rect></clipPath>
+      <text clip-path="url(#clip3)" class="mono" textLength="648" lengthAdjust="spacingAndGlyphs">6+ years building fast, accessible interfaces</text>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7500;0.9875" calcMode="discrete" dur="16s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 0;648 0;648 0;0 0;0 0" keyTimes="0.0000;0.7500;0.8500;0.9500;0.9875;1.0000" dur="16s" repeatCount="indefinite"/>
+        <rect x="4" y="-22" width="12" height="28" rx="2" fill="#a78bfa">
+          <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" calcMode="discrete" dur="1s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(800 70)"><g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" keyTimes="0;0.5;1" dur="6s" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" repeatCount="indefinite"/>
+    <rect width="340" height="170" rx="14" fill="#ffffff" stroke="#dde2ee"/>
+    <circle cx="22" cy="20" r="5" fill="#f87171"/><circle cx="40" cy="20" r="5" fill="#fbbf24"/><circle cx="58" cy="20" r="5" fill="#34d399"/>
+    <text x="316" y="25" text-anchor="end" class="code" font-size="13" fill="#5b6478" style="fill:#5b6478">bruno.ts</text>
+    <text x="22" y="66" class="code"><tspan class="k">const</tspan> dev = {</text>
+    <text x="22" y="92" class="code" xml:space="preserve">  role: <tspan class="s">'Front-end'</tspan>,</text>
+    <text x="22" y="118" class="code" xml:space="preserve">  stack: [<tspan class="s">'Angular'</tspan>, <tspan class="s">'React'</tspan>],</text>
+    <text x="22" y="144" class="code">} <tspan class="k">satisfies</tspan> <tspan class="p">Developer</tspan></text>
+  </g></g>
+</svg>
