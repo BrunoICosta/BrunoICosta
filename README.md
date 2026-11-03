@@ -333,5 +333,5 @@ Nested pages, reorderable blocks and a "/" command menu.<br>
 <br>
 
 <div align="center">
-<sub>Feito com ☕ em Brasília · <a href="https://portfolio.brunoisaac.dev/">portfolio.brunoisaac.dev</a></sub>
+<sub>Feito com ☕ em Brasília · <a href="https://portfolio.brunoisaac.dev/">portfolio.brunoisaac.dev</a> · <a href="https://www.linkedin.com/in/bruno-vin%C3%ADcius-isaac-costa-a90758156/">LinkedIn</a></sub>
 </div>

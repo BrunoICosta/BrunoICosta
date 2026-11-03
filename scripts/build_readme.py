@@ -247,7 +247,7 @@ All live at **[portfolio.brunoisaac.dev]({SITE}/)**.
 <br>
 
 <div align="center">
-<sub>Feito com ☕ em Brasília · <a href="{SITE}/">portfolio.brunoisaac.dev</a></sub>
+<sub>Feito com ☕ em Brasília · <a href="{SITE}/">portfolio.brunoisaac.dev</a> · <a href="{LINKEDIN}">LinkedIn</a></sub>
 </div>
 '''
 
